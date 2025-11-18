@@ -5,7 +5,7 @@
 typedef enum bit [1:0] { ADDR_AUTO = 2'b00, ADDR_WORD = 2'b01, ADDR_BYTE = 2'b10 } addr_mode_t;
 
 // -----------------------------
-// memory_model class (clean & fixed)
+// memory_model class 
 // -----------------------------
 class memory_model;
   // Members
